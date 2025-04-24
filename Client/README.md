@@ -1,12 +1,43 @@
-# React + Vite
+# 🌟 FinAura - Financial Management App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FinAura is a modern, modular financial management web application built using the MERN stack. This is the **frontend** built with **React**, **Vite**, and **TailwindCSS**, designed for performance, scalability, and beautiful UI/UX.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 💼 Track income, expenses, and budgets
+- 📈 View real-time stock portfolio
+- 🤖 Receive AI-based financial suggestions
+- 🔐 JWT-based Authentication (via backend)
+- 📊 Interactive graphs & charts (coming soon)
+- 🌙 Dark/light mode support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React** (w/ Vite for lightning-fast development)
+- **TailwindCSS** for styling
+- **React Router DOM** for routing
+- **Axios** for API calls to microservices
+- **Context API** (or Redux if needed) for global state
+- **Framer Motion** for smooth animations
+- **Chart.js / Recharts** (for data visualization)
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/           # Images, icons, logos
+├── components/       # Reusable UI components
+├── pages/            # All app pages
+├── layouts/          # Page wrappers
+├── context/          # Global state/context
+├── services/         # Axios API handlers
+├── utils/            # Helper functions
+├── App.jsx
+├── main.jsx
+
